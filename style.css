@@ -1,1 +1,15 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+.page-wrapper {
+    background-color: #2F85B6;
+    width: 700px;
+    position: absolute;
+}
+
+.intro {
+	background-image: url(images/ocean.jfif);
+	background-repeat: no-repeat;
+}
+
+p {
+    color: white;
+}
