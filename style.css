@@ -1,4 +1,10 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+body {
+    font-size: 11px;
+    color: white;
+    background-color: black;
+}
+
 .page-wrapper {
     background-color: #2F85B6;
     width: 700px;
@@ -10,10 +16,6 @@
 .intro {
 	background-image: url(images/ocean.jfif);
 	background-repeat: no-repeat;
-}
-
-p {
-    color: white;
 }
 
 .sidebar {
