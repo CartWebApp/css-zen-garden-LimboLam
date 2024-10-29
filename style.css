@@ -24,8 +24,21 @@ body {
 }
 
 footer {
-    background-image: url("images/page-bot.pdf");
+    background-image: url(images/page-bot.png);
     background-repeat: no-repeat;
     background-position: center bottom;
     clear: both;
+}
+
+/* Intro */
+.preamble {
+    background: url(images/fish-2.png) no-repeat;
+}
+
+.preamble p {
+    text-align: left;
+}
+
+.summary {
+    width: 340px;
 }
