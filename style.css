@@ -33,12 +33,18 @@ footer {
 /* Intro */
 .preamble {
     background: url(images/fish-2.png) no-repeat;
+    
 }
 
-.preamble p {
-    text-align: left;
+.preamble > p {
+    padding-left: 372px;
 }
 
-.summary {
-    width: 340px;
+/* Main Supporting */
+.explanation {
+    background: url(images/fish-1.png) no-repeat;
+}
+
+.explanation > p {
+    padding-right: 372px;
 }
