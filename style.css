@@ -32,8 +32,7 @@ footer {
 
 /* Intro */
 .preamble {
-    background: url(images/fish-2.png) no-repeat;
-    
+    background: url(images/fish-2.png);
 }
 
 .preamble > p {
