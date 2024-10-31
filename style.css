@@ -1,8 +1,20 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
 body {
     font-size: 11px;
-    color: white;
+    color: black;
     background-color: black;
+}
+
+a:visited {
+    color: rgb(178, 128, 0);
+}
+
+a:link {
+    color: rgb(178, 128, 0);
+}
+
+a:hover {
+    color: rgb(255, 183, 0)
 }
 
 .page-wrapper {
@@ -14,36 +26,51 @@ body {
 }
 
 .intro {
-	background-image: url(images/ocean.jfif);
-	background-repeat: no-repeat;
+	background: url(images/ocean.jfif) no-repeat;
+    width: 700px;
 }
 
 .sidebar {
     position: absolute;
     background-color: #2F85B6;
+    width: 300px;
 }
 
-footer {
-    background-image: url(images/page-bot.png);
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    clear: both;
-}
-
-/* Intro */
-.preamble {
-    background: url(images/fish-2.png);
-}
-
-.preamble > p {
+/* intro */
+.summary > p {
     padding-left: 372px;
 }
 
-/* Main Supporting */
+#zen-preamble {
+    align-items: flex-start;
+    padding-left: 372px;
+    background: url(images/fish-2.png) no-repeat;
+    width: 300px;
+    position: absolute;
+}
+ 
+/* main supporting */
 .explanation {
     background: url(images/fish-1.png) no-repeat;
+    position: relative;
 }
 
 .explanation > p {
     padding-right: 372px;
+}
+
+.participation {
+    background: url(images/fish-3.png) no-repeat;
+}
+
+.participation > p {
+    padding-left: 372px;
+}
+
+.benefits > p {
+    padding-right: 372px;
+}
+
+.requirements > p {
+    padding-left: 372px;
 }
