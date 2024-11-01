@@ -42,6 +42,7 @@ a:hover {
 }
 
 #zen-preamble {
+    display: block;
     align-items: flex-start;
     padding-left: 372px;
     background: url(images/fish-1.png) no-repeat;
