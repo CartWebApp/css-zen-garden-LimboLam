@@ -44,14 +44,14 @@ a:hover {
 #zen-preamble {
     align-items: flex-start;
     padding-left: 372px;
-    background: url(images/fish-2.png) no-repeat;
+    background: url(images/fish-1.png) no-repeat;
     width: 300px;
     position: absolute;
 }
  
 /* main supporting */
 .explanation {
-    background: url(images/fish-1.png) no-repeat;
+    background: url(images/fish-2.png) no-repeat;
     position: relative;
 }
 
